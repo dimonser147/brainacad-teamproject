@@ -12,19 +12,9 @@ namespace BA.MyFirstTeamProject
     {
         static void Main(string[] args)
         {
-            // TODO: create students manager
-            IStudentsManager studentsManager = new FakeStudentsManager();
-            // TODO: create appropriate students collection and fill it by other students
-            List<IStudent> students = new List<IStudent>();
-            students.Add(new SampleStudent());
-            // TODO: print marks of all students
-            foreach (IStudent s in students)
-            {
-                double mark = studentsManager.GetMark(s);
-                string ms = s.ToMarkString(mark);
-                Console.WriteLine(ms);
-            }
-
+            // TODO: 1. create students manager
+            // TODO: 2. create appropriate students collection and fill it by other students
+            // TODO: 3. print marks of all students
         }
     }
 }
