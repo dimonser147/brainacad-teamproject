@@ -13,7 +13,7 @@ namespace BA.MyFirstTeamProject
         static void Main(string[] args)
         {
             // TODO: 1. create students manager
-            var studet = new SampleStudent();
+            var student = new SampleStudent();
             // TODO: 2. create appropriate students collection and fill it by other students
             // TODO: 3. print marks of all students
         }
