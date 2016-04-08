@@ -13,6 +13,8 @@ namespace BA.MyFirstTeamProject
         static void Main(string[] args)
         {
             // TODO: 1. create students manager
+            IStudent student2 = new SampleStudent();
+            IStudent student3 = new SampleStudent();
             // TODO: 2. create appropriate students collection and fill it by other students
             // TODO: 3. print marks of all students
         }
