@@ -52,13 +52,17 @@
     <Compile Include="Students\AntonPluzhnikov.cs" />
     <Compile Include="Students\IgorAlborovStudent.cs" />
     <Compile Include="Students\AndreiMatveev.cs" />
+    <Compile Include="Students\GlushenkoBorys.cs" />
     <Compile Include="Students\IStudent.cs" />
     <Compile Include="Students\DmytroObolonyk.cs" />
+    <Compile Include="Students\MaksymPereshybkin.cs" />
     <Compile Include="Students\IvanSakharchuk.cs" />
     <Compile Include="Students\OleksiiGorishnii.cs" />
     <Compile Include="Students\PetroReznikStudent.cs" />
     <Compile Include="Students\SampleStudent.cs" />
     <Compile Include="Students\YurySviridov.cs" />
+    <Compile Include="Students\VasiliyCherniatyn.cs" />
+    <Compile Include="Students\VadikKorzh.cs" />
     <Compile Include="Utilities\StudentHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
