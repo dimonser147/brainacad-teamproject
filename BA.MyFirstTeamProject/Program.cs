@@ -18,6 +18,7 @@ namespace BA.MyFirstTeamProject
             IStudent ivanSakharchuk = new IvanSakharchuk();
             IStudent igorAlborov = new IgorAlborovStudent();
             IStudent oleksiiGorishnii = new OleksiiGorishnii();
+            IStudent andreiMatveev = new AndreiMatveev();
 
 
             // TODO: 1. create students manager
