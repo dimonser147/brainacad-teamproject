@@ -15,6 +15,9 @@ namespace BA.MyFirstTeamProject
             IStudent me = new DmytroObolonyk();
 
             IStudent antonPluzhnikov = new AntonPluzhnikov();
+            IStudent ivanSakharchuk = new IvanSakharchuk();
+            IStudent igorAlborov = new IgorAlborovStudent();
+            IStudent oleksiiGorishnii = new OleksiiGorishnii();
 
 
             // TODO: 1. create students manager
@@ -22,6 +25,14 @@ namespace BA.MyFirstTeamProject
 
             
             // TODO: 2. create appropriate students collection and fill it by other students
+            IList<IStudent> students = new List<IStudent>();
+            students.Add(antonPluzhnikov);
+            students.Add(ivanSakharchuk);
+            students.Add(igorAlborov);
+            students.Add(new PetroReznikStudent());
+            students.Add(oleksiiGorishnii);
+            students.Add(new GlushenkoBorys());
+
             // TODO: 3. print marks of all students
         }
     }
