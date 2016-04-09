@@ -18,8 +18,7 @@ namespace BA.MyFirstTeamProject
             IStudent antonPluzhnikov = new AntonPluzhnikov();
             IStudent ivanSakharchuk = new IvanSakharchuk();
             IStudent igorAlborov = new IgorAlborovStudent();
-            IStudent oleksiiGorishnii = new OleksiiGorishnii();
-            IStudent andreiMatveev = new AndreiMatveev();
+            IStudent vasiliyCherniatyn = new VasiliyCherniatyn();
             IStudent vadikKorzh = new VadikKorzh();
 
             // TODO: 1. create students manager
@@ -32,13 +31,17 @@ namespace BA.MyFirstTeamProject
             students.Add(ivanSakharchuk);
             students.Add(igorAlborov);
             students.Add(new PetroReznikStudent());
+            students.Add(vasiliyCherniatyn);
             students.Add(new AndreyDzyuba());
-            students.Add(oleksiiGorishnii);
-            students.Add(andreiMatveev);
             students.Add(new GlushenkoBorys());
             students.Add(vadikKorzh);
 
             // TODO: 3. print marks of all students
+            foreach (var item in students)
+            {
+                Console.WriteLine(item.ToMarkString(StudentsManager.GetMark(item)));
+            }
+            Console.ReadLine();
         }
     }
 }
