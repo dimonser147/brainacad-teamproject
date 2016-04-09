@@ -13,12 +13,12 @@ namespace BA.MyFirstTeamProject
         static void Main(string[] args)
         {
             IStudent me = new DmytroObolonyk();
+            IStudent maxPrs = new MaksymPereshybkin();
 
             IStudent antonPluzhnikov = new AntonPluzhnikov();
             IStudent ivanSakharchuk = new IvanSakharchuk();
             IStudent igorAlborov = new IgorAlborovStudent();
-            IStudent oleksiiGorishnii = new OleksiiGorishnii();
-            IStudent andreiMatveev = new AndreiMatveev();
+            IStudent vasiliyCherniatyn = new VasiliyCherniatyn();
 
 
             IStudent alkovychSerhii = new AlkovychSerhii();
@@ -32,12 +32,16 @@ namespace BA.MyFirstTeamProject
             students.Add(ivanSakharchuk);
             students.Add(igorAlborov);
             students.Add(new PetroReznikStudent());
+            students.Add(vasiliyCherniatyn);
             students.Add(new AndreyDzyuba());
-            students.Add(oleksiiGorishnii);
-            students.Add(andreiMatveev);
             students.Add(new GlushenkoBorys());
 
             // TODO: 3. print marks of all students
+            foreach (var item in students)
+            {
+                Console.WriteLine(item.ToMarkString(StudentsManager.GetMark(item)));
+            }
+            Console.ReadLine();
         }
     }
 }
