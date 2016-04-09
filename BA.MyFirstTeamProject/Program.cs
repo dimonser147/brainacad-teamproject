@@ -8,6 +8,11 @@ using BA.MyFirstTeamProject.Utilities;
 
 namespace BA.MyFirstTeamProject
 {
+
+
+
+
+
     class Program
     {
         static void Main(string[] args)
@@ -27,12 +32,14 @@ namespace BA.MyFirstTeamProject
             IStudent alkovychSerhii = new AlkovychSerhii();
             // TODO: 1. create students manager
             IStudentsManager StudentsManager = new FakeStudentsManager();
-            
+
             // TODO: 2. create appropriate students collection and fill it by other students
             IList<IStudent> students = new List<IStudent>();
             students.Add(antonPluzhnikov);
             students.Add(ivanSakharchuk);
             students.Add(igorAlborov);
+            students.Add(new YurySviridov());
+
             students.Add(new PetroReznikStudent());
             students.Add(oleksiiGorishnii);
             students.Add(andreiMatveev);
