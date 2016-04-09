@@ -19,6 +19,7 @@ namespace BA.MyFirstTeamProject
             IStudent ivanSakharchuk = new IvanSakharchuk();
             IStudent igorAlborov = new IgorAlborovStudent();
             IStudent vasiliyCherniatyn = new VasiliyCherniatyn();
+            IStudent vadikKorzh = new VadikKorzh();
 
             // TODO: 1. create students manager
             IStudentsManager StudentsManager = new FakeStudentsManager();
@@ -34,6 +35,7 @@ namespace BA.MyFirstTeamProject
             students.Add(new AndreyDzyuba());
             students.Add(new GlushenkoBorys());
             students.Add(new OleksiiGorishnii());
+            students.Add(vadikKorzh);
 
             // TODO: 3. print marks of all students
             foreach (var item in students)
