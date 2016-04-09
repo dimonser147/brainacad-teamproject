@@ -57,6 +57,7 @@
     <Compile Include="Students\IStudent.cs" />
     <Compile Include="Students\DmytroObolonyk.cs" />
     <Compile Include="Students\MaksymPereshybkin.cs" />
+    <Compile Include="Students\YevhenKhatylaiev.cs" />
     <Compile Include="Students\IvanSakharchuk.cs" />
     <Compile Include="Students\OleksiiGorishnii.cs" />
     <Compile Include="Students\PetroReznikStudent.cs" />

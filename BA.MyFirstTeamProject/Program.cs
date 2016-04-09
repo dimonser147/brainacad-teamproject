@@ -14,18 +14,19 @@ namespace BA.MyFirstTeamProject
         {
             IStudent me = new DmytroObolonyk();
             IStudent maxPrs = new MaksymPereshybkin();
-
             IStudent antonPluzhnikov = new AntonPluzhnikov();
             IStudent ivanSakharchuk = new IvanSakharchuk();
             IStudent igorAlborov = new IgorAlborovStudent();
             IStudent vasiliyCherniatyn = new VasiliyCherniatyn();
             IStudent vadikKorzh = new VadikKorzh();
+            IStudent oleksiiGorishnii = new OleksiiGorishnii();
+            IStudent YevhenKhatylaiev = new YevhenKhatylaiev(); 
+            IStudent andreiMatveev = new AndreiMatveev();
 
 
             IStudent alkovychSerhii = new AlkovychSerhii();
             // TODO: 1. create students manager
             IStudentsManager StudentsManager = new FakeStudentsManager();
-
             
             // TODO: 2. create appropriate students collection and fill it by other students
             IList<IStudent> students = new List<IStudent>();
@@ -33,12 +34,15 @@ namespace BA.MyFirstTeamProject
             students.Add(ivanSakharchuk);
             students.Add(igorAlborov);
             students.Add(new PetroReznikStudent());
+            students.Add(oleksiiGorishnii);
+            students.Add(andreiMatveev);
+            students.Add(YevhenKhatylaiev);
             students.Add(vasiliyCherniatyn);
             students.Add(new AndreyDzyuba());
             students.Add(new GlushenkoBorys());
             students.Add(new OleksiiGorishnii());
             students.Add(vadikKorzh);
-
+            Console.WriteLine("LALALALA");
             // TODO: 3. print marks of all students
             foreach (var item in students)
             {
