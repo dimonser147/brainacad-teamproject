@@ -13,6 +13,7 @@ namespace BA.MyFirstTeamProject
         static void Main(string[] args)
         {
             IStudent me = new DmytroObolonyk();
+            IStudent maxPrs = new MaksymPereshybkin();
             // TODO: 1. create students manager
             // TODO: 2. create appropriate students collection and fill it by other students
             // TODO: 3. print marks of all students
