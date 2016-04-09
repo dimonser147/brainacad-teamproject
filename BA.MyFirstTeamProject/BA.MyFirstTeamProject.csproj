@@ -60,6 +60,7 @@
     <Compile Include="Students\OleksiiGorishnii.cs" />
     <Compile Include="Students\PetroReznikStudent.cs" />
     <Compile Include="Students\SampleStudent.cs" />
+    <Compile Include="Students\VadikKorzh.cs" />
     <Compile Include="Utilities\StudentHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
