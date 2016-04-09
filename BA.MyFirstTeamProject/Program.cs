@@ -13,6 +13,7 @@ namespace BA.MyFirstTeamProject
         static void Main(string[] args)
         {
             IStudent me = new DmytroObolonyk();
+            IStudent maxPrs = new MaksymPereshybkin();
 
             IStudent antonPluzhnikov = new AntonPluzhnikov();
             IStudent ivanSakharchuk = new IvanSakharchuk();
