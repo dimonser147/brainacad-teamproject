@@ -19,7 +19,6 @@ namespace BA.MyFirstTeamProject
             IStudent igorAlborov = new IgorAlborovStudent();
             IStudent vasiliyCherniatyn = new VasiliyCherniatyn();
 
-
             // TODO: 1. create students manager
             IStudentsManager StudentsManager = new FakeStudentsManager();
 
