@@ -23,6 +23,8 @@ namespace BA.MyFirstTeamProject
             
             // TODO: 2. create appropriate students collection and fill it by other students
             IList<IStudent> students = new List<IStudent>();
+            students.Add(antonPluzhnikov);
+
             // TODO: 3. print marks of all students
         }
     }
