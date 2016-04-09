@@ -15,6 +15,7 @@ namespace BA.MyFirstTeamProject
             IStudent me = new DmytroObolonyk();
             // TODO: 1. create students manager
             // TODO: 2. create appropriate students collection and fill it by other students
+            IList<IStudent> students = new List<IStudent>();
             // TODO: 3. print marks of all students
         }
     }
