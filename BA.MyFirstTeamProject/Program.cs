@@ -13,8 +13,21 @@ namespace BA.MyFirstTeamProject
         static void Main(string[] args)
         {
             IStudent me = new DmytroObolonyk();
+
+            IStudent antonPluzhnikov = new AntonPluzhnikov();
+            IStudent ivanSakharchuk = new IvanSakharchuk();
+
+
             // TODO: 1. create students manager
+            IStudentsManager StudentsManager = new FakeStudentsManager();
+
+            
             // TODO: 2. create appropriate students collection and fill it by other students
+            IList<IStudent> students = new List<IStudent>();
+            students.Add(antonPluzhnikov);
+            students.Add(ivanSakharchuk);
+            students.Add(new PetroReznikStudent());
+
             // TODO: 3. print marks of all students
         }
     }
