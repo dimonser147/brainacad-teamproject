@@ -23,9 +23,10 @@ namespace BA.MyFirstTeamProject
             IStudent YevhenKhatylaiev = new YevhenKhatylaiev(); 
             IStudent andreiMatveev = new AndreiMatveev();
 
+
             // TODO: 1. create students manager
             IStudentsManager StudentsManager = new FakeStudentsManager();
-            
+
             // TODO: 2. create appropriate students collection and fill it by other students
             IList<IStudent> students = new List<IStudent>();
             students.Add(antonPluzhnikov);
@@ -36,6 +37,8 @@ namespace BA.MyFirstTeamProject
             students.Add(andreiMatveev);
             students.Add(YevhenKhatylaiev);
             students.Add(vasiliyCherniatyn);
+            students.Add(new AndreyDzyuba());
+            //students.Add(vasiliyCherniatyn);
             students.Add(new AndreyDzyuba());
             students.Add(new GlushenkoBorys());
             students.Add(new OleksiiGorishnii());
