@@ -43,7 +43,6 @@ namespace BA.MyFirstTeamProject
             students.Add(new GlushenkoBorys());
             students.Add(new OleksiiGorishnii());
             students.Add(vadikKorzh);
-        
             // TODO: 3. print marks of all students
             foreach (var item in students)
             {
