@@ -8,37 +8,45 @@ using BA.MyFirstTeamProject.Utilities;
 
 namespace BA.MyFirstTeamProject
 {
+
+
+
+
+
     class Program
     {
         static void Main(string[] args)
         {
             IStudent me = new DmytroObolonyk();
+            IStudent VladTk = new TkachenkoVlad();
             IStudent maxPrs = new MaksymPereshybkin();
             IStudent antonPluzhnikov = new AntonPluzhnikov();
             IStudent ivanSakharchuk = new IvanSakharchuk();
             IStudent igorAlborov = new IgorAlborovStudent();
-            IStudent vasiliyCherniatyn = new VasiliyCherniatyn();
-            IStudent vadikKorzh = new VadikKorzh();
-            IStudent oleksiiGorishnii = new OleksiiGorishnii();
-            IStudent YevhenKhatylaiev = new YevhenKhatylaiev(); 
-            IStudent andreiMatveev = new AndreiMatveev();
 
 
+            IStudent alkovychSerhii = new AlkovychSerhii();
             // TODO: 1. create students manager
             IStudentsManager StudentsManager = new FakeStudentsManager();
-            
+
             // TODO: 2. create appropriate students collection and fill it by other students
             IList<IStudent> students = new List<IStudent>();
             students.Add(antonPluzhnikov);
             students.Add(ivanSakharchuk);
             students.Add(igorAlborov);
+            students.Add(new YurySviridov());
+
             students.Add(new PetroReznikStudent());
-            students.Add(oleksiiGorishnii);
-            students.Add(andreiMatveev);
-            students.Add(YevhenKhatylaiev);
-            students.Add(vasiliyCherniatyn);
             students.Add(new AndreyDzyuba());
-            //students.Add(vasiliyCherniatyn);
+            students.Add(VladTk);
+            students.Add(new OleksiiGorishnii());
+            
+            students.Add(new OleksiiGorishnii());
+            students.Add(new AndreiMatveev());
+            students.Add(new YevhenKhatylaiev());
+            students.Add(new VasiliyCherniatyn());
+            students.Add(new AndreyDzyuba());
+            students.Add(new VasiliyCherniatyn());
             students.Add(new AndreyDzyuba());
             students.Add(new GlushenkoBorys());
             students.Add(new OleksiiGorishnii());
