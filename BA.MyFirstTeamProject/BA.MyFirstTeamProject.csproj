@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomProvider.cs" />
     <Compile Include="FakeStudentsManager.cs" />
+    <Compile Include="Students\AndreyDzyuba.cs" />
     <Compile Include="Students\AntonPluzhnikov.cs" />
     <Compile Include="Students\IgorAlborovStudent.cs" />
     <Compile Include="Students\AndreiMatveev.cs" />

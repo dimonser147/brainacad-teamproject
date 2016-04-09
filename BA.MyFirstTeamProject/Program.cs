@@ -31,6 +31,7 @@ namespace BA.MyFirstTeamProject
             students.Add(ivanSakharchuk);
             students.Add(igorAlborov);
             students.Add(new PetroReznikStudent());
+            students.Add(new AndreyDzyuba());
             students.Add(oleksiiGorishnii);
             students.Add(andreiMatveev);
             students.Add(new GlushenkoBorys());
