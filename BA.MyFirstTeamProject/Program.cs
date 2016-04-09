@@ -27,7 +27,7 @@ namespace BA.MyFirstTeamProject
             students.Add(antonPluzhnikov);
             students.Add(ivanSakharchuk);
             students.Add(new PetroReznikStudent());
-
+            students.Add(new AndreyDzyuba());
             // TODO: 3. print marks of all students
         }
     }
