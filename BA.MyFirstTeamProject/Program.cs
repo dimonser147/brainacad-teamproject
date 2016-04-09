@@ -17,6 +17,8 @@ namespace BA.MyFirstTeamProject
             IStudent antonPluzhnikov = new AntonPluzhnikov();
             IStudent ivanSakharchuk = new IvanSakharchuk();
             IStudent igorAlborov = new IgorAlborovStudent();
+            IStudent oleksiiGorishnii = new OleksiiGorishnii();
+            IStudent andreiMatveev = new AndreiMatveev();
 
 
             IStudent alkovychSerhii = new AlkovychSerhii();
@@ -30,6 +32,9 @@ namespace BA.MyFirstTeamProject
             students.Add(ivanSakharchuk);
             students.Add(igorAlborov);
             students.Add(new PetroReznikStudent());
+            students.Add(new AndreyDzyuba());
+            students.Add(oleksiiGorishnii);
+            students.Add(andreiMatveev);
 
             // TODO: 3. print marks of all students
         }
