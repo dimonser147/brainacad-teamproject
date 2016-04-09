@@ -8,6 +8,11 @@ using BA.MyFirstTeamProject.Utilities;
 
 namespace BA.MyFirstTeamProject
 {
+
+
+
+
+
     class Program
     {
         static void Main(string[] args)
@@ -32,6 +37,8 @@ namespace BA.MyFirstTeamProject
             students.Add(antonPluzhnikov);
             students.Add(ivanSakharchuk);
             students.Add(igorAlborov);
+            students.Add(new YurySviridov());
+
             students.Add(new PetroReznikStudent());
             students.Add(oleksiiGorishnii);
             students.Add(andreiMatveev);
