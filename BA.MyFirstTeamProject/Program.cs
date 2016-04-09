@@ -38,12 +38,12 @@ namespace BA.MyFirstTeamProject
             students.Add(YevhenKhatylaiev);
             students.Add(vasiliyCherniatyn);
             students.Add(new AndreyDzyuba());
-            //students.Add(vasiliyCherniatyn);
+            students.Add(vasiliyCherniatyn);
             students.Add(new AndreyDzyuba());
             students.Add(new GlushenkoBorys());
             students.Add(new OleksiiGorishnii());
             students.Add(vadikKorzh);
-            Console.WriteLine("LALALALA");
+        
             // TODO: 3. print marks of all students
             foreach (var item in students)
             {
