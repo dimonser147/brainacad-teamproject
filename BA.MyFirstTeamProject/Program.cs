@@ -21,19 +21,19 @@ namespace BA.MyFirstTeamProject
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
-            studentsCollection[8] = new SergeiRopin();
-            studentsCollection[2] = new JuliaNeznaeva();
-            studentsCollection[3] = new OksanaZinchenko();
-            studentsCollection[7] = new DionisiiGrinko();
-            studentsCollection[13] = new DmytriyKashkarov();
-            studentsCollection[12] = new AleksandrKhomenko();
+            studentsCollection[2] = new SergeiRopin();
+            studentsCollection[3] = new JuliaNeznaeva();
+            studentsCollection[7] = new OksanaZinchenko();
+            studentsCollection[8] = new DionisiiGrinko();
+            studentsCollection[9] = new DmytriyKashkarov();
+            studentsCollection[10] = new AleksandrKhomenko();
 
 
 
-            studentsCollection[9] = new IrinaDemina();
-            studentsCollection[10] = new AleksandrBaranov();
+            studentsCollection[11] = new IrinaDemina();
+            studentsCollection[12] = new AleksandrBaranov();
 
-            studentsCollection[11] = new TetianaTrukhachova();
+            studentsCollection[13] = new TetianaTrukhachova();
 
             // TODO: 3. print marks of all students
 
