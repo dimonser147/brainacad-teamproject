@@ -21,17 +21,19 @@ namespace BA.MyFirstTeamProject
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
+            studentsCollection[8] = new SergeiRopin();
             studentsCollection[2] = new JuliaNeznaeva(); 
+            studentsCollection[3] = new OksanaZinchenko();
+            studentsCollection[7] = new DionisiiGrinko();
 
 
 
-            
 
             // TODO: 3. print marks of all students
 
 
 
-            
+
             foreach (IStudent stud in studentsCollection)
             {
                 if (stud != null)
@@ -42,6 +44,6 @@ namespace BA.MyFirstTeamProject
 
             Console.ReadLine();
 
-    }
+        }
     }
 }
