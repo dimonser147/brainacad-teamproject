@@ -25,22 +25,23 @@ namespace BA.MyFirstTeamProject
 
 
 
-
-
-
-            studentsCollection[3] = new DionisiiGrinko();
+            
 
             // TODO: 3. print marks of all students
 
 
 
+            
+            foreach (IStudent stud in studentsCollection)
+            {
+                if (stud != null)
+                {
+                    Console.WriteLine(stud.ToMarkString( fakeStudManager.GetMark(stud)));
+                }
+            }
 
-            //foreach(IStudent stud in someplace)
-            //{
-            //Console.WriteLine stud
+            Console.ReadLine();
 
-            //}
-
-        }
+    }
     }
 }
