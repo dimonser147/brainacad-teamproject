@@ -27,7 +27,7 @@ namespace BA.MyFirstTeamProject
             studentsCollection[7] = new DionisiiGrinko();
             studentsCollection[13] = new DmytriyKashkarov();
             studentsCollection[12] = new AleksandrKhomenko();
-
+            studentsCollection[14] = new YuraShariy();
 
 
             studentsCollection[9] = new IrinaDemina();
