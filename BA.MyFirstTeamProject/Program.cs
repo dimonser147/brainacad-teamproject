@@ -21,7 +21,7 @@ namespace BA.MyFirstTeamProject
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
-            studentsCollection[8] = new TetianaTrukhachova();
+            studentsCollection[13] = new TetianaTrukhachova();
 
             // TODO: 3. print marks of all students
 
