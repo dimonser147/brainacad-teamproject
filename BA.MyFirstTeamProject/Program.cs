@@ -22,6 +22,13 @@ namespace BA.MyFirstTeamProject
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
             studentsCollection[8] = new SergeiRopin();
+            studentsCollection[2] = new JuliaNeznaeva();
+            studentsCollection[7] = new DionisiiGrinko();
+
+
+
+
+
 
             // TODO: 3. print marks of all students
 
