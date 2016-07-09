@@ -38,7 +38,7 @@ namespace BA.MyFirstTeamProject
                 if (stud != null)
                 {
                     i++;
-                    Console.WriteLine(i.ToString() + ": " + stud.ToMarkString(fakeStudManager.GetMark(stud)));
+                    Console.WriteLine(i + ": " + stud.ToMarkString(fakeStudManager.GetMark(stud)));
                 }
             }
             Console.ReadLine();
