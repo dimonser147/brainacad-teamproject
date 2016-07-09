@@ -21,7 +21,9 @@ namespace BA.MyFirstTeamProject
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
-            studentsCollection[2] = new JuliaNeznaeva();
+            studentsCollection[8] = new SergeiRopin();
+            studentsCollection[2] = new JuliaNeznaeva(); 
+            studentsCollection[3] = new OksanaZinchenko();
             studentsCollection[7] = new DionisiiGrinko();
             studentsCollection[8] = new IrinaDemina();
 
@@ -35,11 +37,15 @@ namespace BA.MyFirstTeamProject
 
 
 
-            //foreach(IStudent stud in someplace)
-            //{
-            //Console.WriteLine stud
+            foreach (IStudent stud in studentsCollection)
+            {
+                if (stud != null)
+                {
+                    Console.WriteLine(stud.ToMarkString( fakeStudManager.GetMark(stud)));
+                }
+            }
 
-            //}
+            Console.ReadLine();
 
         }
     }
