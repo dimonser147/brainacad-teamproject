@@ -15,6 +15,17 @@ namespace BA.MyFirstTeamProject
             // TODO: 1. create students manager
             // TODO: 2. create appropriate students collection and fill it by other students
             // TODO: 3. print marks of all students
+
+
+
+
+
+            //foreach(IStudent stud in someplace)
+            //{
+                //Console.WriteLine stud
+
+            //}
+
         }
     }
 }
