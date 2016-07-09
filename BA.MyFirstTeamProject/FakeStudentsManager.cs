@@ -11,6 +11,7 @@ namespace BA.MyFirstTeamProject
     {
         public double GetMark(IStudent student)
         {
+
             return RandomProvider.GetThreadRandom().Next(100);
         }
     }
