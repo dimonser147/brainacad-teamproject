@@ -13,16 +13,13 @@ namespace BA.MyFirstTeamProject
         static void Main(string[] args)
         {
             // TODO: 1. create students manager h
-
-
             FakeStudentsManager fakeStudManager = new FakeStudentsManager();
+            
             // TODO: 2. create appropriate students collection and fill it by other students
-
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
             studentsCollection[4] = new AntonNaprasnic();
-
             studentsCollection[8] = new SergeiRopin();
             studentsCollection[2] = new JuliaNeznaeva();
             studentsCollection[3] = new OksanaZinchenko();
@@ -30,19 +27,12 @@ namespace BA.MyFirstTeamProject
             studentsCollection[13] = new DmytriyKashkarov();
             studentsCollection[12] = new AleksandrKhomenko();
             studentsCollection[14] = new YuraShariy();
-
-
             studentsCollection[9] = new IrinaDemina();
             studentsCollection[10] = new AleksandrBaranov();
-
             studentsCollection[11] = new TetianaTrukhachova();
-
             studentsCollection[15] = new KryvenokMihail();
 
             // TODO: 3. print marks of all students
-
-
-
             int i = 0;
             foreach (IStudent stud in studentsCollection)
             {
