@@ -17,6 +17,10 @@ namespace BA.MyFirstTeamProject
 
             FakeStudentsManager fakeStudManager = new FakeStudentsManager();
             // TODO: 2. create appropriate students collection and fill it by other students
+
+            IStudent[] studentsCollection = new IStudent[15];
+            studentsCollection[0] = new AntonBabich();
+
             // TODO: 3. print marks of all students
 
 
@@ -25,7 +29,7 @@ namespace BA.MyFirstTeamProject
 
             //foreach(IStudent stud in someplace)
             //{
-                //Console.WriteLine stud
+            //Console.WriteLine stud
 
             //}
 
