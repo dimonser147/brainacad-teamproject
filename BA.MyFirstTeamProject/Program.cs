@@ -23,7 +23,7 @@ namespace BA.MyFirstTeamProject
             studentsCollection[1] = new SelivanovskyIvan();
             studentsCollection[2] = new JuliaNeznaeva();
             studentsCollection[7] = new DionisiiGrinko();
-
+            studentsCollection[8] = new AleksandrBaranov();
 
 
 
