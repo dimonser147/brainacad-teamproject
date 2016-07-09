@@ -15,7 +15,7 @@ namespace BA.MyFirstTeamProject.Students
                 return "ropin.sergei@gmail.com";
             }
         }
-
+         
         public string Firstname
         {
             get
