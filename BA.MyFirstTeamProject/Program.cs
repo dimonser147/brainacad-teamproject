@@ -22,7 +22,6 @@ namespace BA.MyFirstTeamProject
             studentsCollection[0] = new AntonBabich();
 
             // TODO: 3. print marks of all students
-            IStudentsManager manager = new FakeStudentsManager();
 
 
 
