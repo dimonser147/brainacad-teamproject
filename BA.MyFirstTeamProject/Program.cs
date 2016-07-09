@@ -31,7 +31,7 @@ namespace BA.MyFirstTeamProject
 
 
             studentsCollection[9] = new IrinaDemina();
-
+            studentsCollection[10] = new AleksandrBaranov();
 
             studentsCollection[11] = new TetianaTrukhachova();
 
