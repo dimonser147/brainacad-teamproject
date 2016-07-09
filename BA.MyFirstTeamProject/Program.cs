@@ -25,8 +25,7 @@ namespace BA.MyFirstTeamProject
 
 
 
-
-            studentsCollection[3] = new DionisiiGrinko();
+          
 
             // TODO: 3. print marks of all students
 
