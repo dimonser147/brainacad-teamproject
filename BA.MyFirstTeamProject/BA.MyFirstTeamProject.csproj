@@ -58,6 +58,7 @@
     <Compile Include="Students\IrinaDemina.cs" />
     <Compile Include="Students\IStudent.cs" />
     <Compile Include="Students\JuliaNeznaeva.cs" />
+    <Compile Include="Students\KryvenokMihail.cs" />
     <Compile Include="Students\OksanaZinchenko.cs" />
     <Compile Include="Students\SampleStudent.cs" />
     <Compile Include="Students\SergeiRopin.cs" />
