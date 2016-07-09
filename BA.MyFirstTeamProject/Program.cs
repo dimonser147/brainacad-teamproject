@@ -27,11 +27,6 @@ namespace BA.MyFirstTeamProject
             studentsCollection[7] = new DionisiiGrinko();
             studentsCollection[8] = new IrinaDemina();
 
-
-
-
-            studentsCollection[3] = new DionisiiGrinko();
-
             // TODO: 3. print marks of all students
 
 
