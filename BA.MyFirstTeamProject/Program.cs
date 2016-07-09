@@ -24,7 +24,6 @@ namespace BA.MyFirstTeamProject
             studentsCollection[8] = new TetianaTrukhachova();
 
             // TODO: 3. print marks of all students
-            IStudentsManager manager = new FakeStudentsManager();
 
 
 
