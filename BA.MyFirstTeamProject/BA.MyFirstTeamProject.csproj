@@ -50,6 +50,7 @@
     <Compile Include="FakeStudentsManager.cs" />
     <Compile Include="Students\DmytroObolonyk.cs" />
     <Compile Include="Students\IStudent.cs" />
+    <Compile Include="Students\OksanaZinchenko.cs" />
     <Compile Include="Students\SampleStudent.cs" />
     <Compile Include="Utilities\StudentHelpers.cs" />
   </ItemGroup>
