@@ -22,12 +22,15 @@ namespace BA.MyFirstTeamProject
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
             studentsCollection[8] = new SergeiRopin();
-            studentsCollection[2] = new JuliaNeznaeva(); 
+            studentsCollection[2] = new JuliaNeznaeva();
             studentsCollection[3] = new OksanaZinchenko();
             studentsCollection[7] = new DionisiiGrinko();
-            studentsCollection[13] = new YuraShariy();
+            studentsCollection[13] = new DmytriyKashkarov();
+            studentsCollection[15] = new YuraShariy();
 
 
+
+            studentsCollection[11] = new TetianaTrukhachova();
 
             // TODO: 3. print marks of all students
 
