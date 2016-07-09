@@ -12,7 +12,7 @@ namespace BA.MyFirstTeamProject
     {
         static void Main(string[] args)
         {
-            // TODO: 1. create students manager
+            // TODO: 1. create students manager h
 
 
             FakeStudentsManager fakeStudManager = new FakeStudentsManager();
