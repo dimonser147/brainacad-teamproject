@@ -30,6 +30,7 @@ namespace BA.MyFirstTeamProject
 
 
 
+            studentsCollection[9] = new IrinaDemina();
 
 
             studentsCollection[11] = new TetianaTrukhachova();
