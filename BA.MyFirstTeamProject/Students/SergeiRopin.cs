@@ -20,7 +20,7 @@ namespace BA.MyFirstTeamProject.Students
         {
             get
             {
-                return "Sergei";
+                return "Sergei ";
             }
         }
 
