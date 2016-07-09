@@ -27,7 +27,7 @@ namespace BA.MyFirstTeamProject
             studentsCollection[7] = new DionisiiGrinko();
             studentsCollection[13] = new DmytriyKashkarov();
             studentsCollection[12] = new AleksandrKhomenko();
-
+            studentsCollection[14] = new YuraShariy();
 
 
             studentsCollection[9] = new IrinaDemina();
@@ -41,12 +41,13 @@ namespace BA.MyFirstTeamProject
 
 
 
-
+            int i = 0;
             foreach (IStudent stud in studentsCollection)
             {
                 if (stud != null)
                 {
-                    Console.WriteLine(stud.ToMarkString( fakeStudManager.GetMark(stud)));
+                    i++;
+                    Console.WriteLine(i.ToString()+": "+ stud.ToMarkString( fakeStudManager.GetMark(stud)));
                 }
             }
 
