@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BA.MyFirstTeamProject.Students
 {
-    class IrinaDemina
+    class IrinaDemina:IStudent
     {
         public string Email
         {
