@@ -29,7 +29,6 @@ namespace BA.MyFirstTeamProject
             studentsCollection[9] = new IrinaDemina();
             studentsCollection[10] = new AleksandrBaranov();
             studentsCollection[11] = new TetianaTrukhachova();
-
             studentsCollection[5] = new KryvenokMihail();
 
             // TODO: 3. print marks of all students
@@ -42,9 +41,7 @@ namespace BA.MyFirstTeamProject
                     Console.WriteLine(i.ToString() + ": " + stud.ToMarkString(fakeStudManager.GetMark(stud)));
                 }
             }
-
             Console.ReadLine();
-
         }
     }
 }
