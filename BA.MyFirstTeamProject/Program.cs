@@ -13,8 +13,22 @@ namespace BA.MyFirstTeamProject
         static void Main(string[] args)
         {
             // TODO: 1. create students manager
+
+
+            FakeStudentsManager fakeStudManager = new FakeStudentsManager();
             // TODO: 2. create appropriate students collection and fill it by other students
             // TODO: 3. print marks of all students
+            IStudentsManager manager = new FakeStudentsManager();
+
+
+
+
+            //foreach(IStudent stud in someplace)
+            //{
+            //Console.WriteLine stud
+             
+            //}
+
         }
     }
 }
