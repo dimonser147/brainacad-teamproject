@@ -51,6 +51,7 @@
     <Compile Include="Students\BestStudent.cs" />
     <Compile Include="Students\IStudent.cs" />
     <Compile Include="Students\SampleStudent.cs" />
+    <Compile Include="Students\StudentTetiana.cs" />
     <Compile Include="Utilities\StudentHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
