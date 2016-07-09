@@ -10,46 +10,38 @@ namespace BA.MyFirstTeamProject
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            // TODO: 1. create students manager
-
-
+        static void Main(string[] args) {
+            // TODO: 1. create students manager h
             FakeStudentsManager fakeStudManager = new FakeStudentsManager();
-            // TODO: 2. create appropriate students collection and fill it by other students
 
+            // TODO: 2. create appropriate students collection and fill it by other students
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
-            studentsCollection[2] = new SergeiRopin();
-            studentsCollection[3] = new JuliaNeznaeva();
-            studentsCollection[7] = new OksanaZinchenko();
-            studentsCollection[8] = new DionisiiGrinko();
-            studentsCollection[9] = new DmytriyKashkarov();
-            studentsCollection[10] = new AleksandrKhomenko();
-
-
-
-            studentsCollection[11] = new IrinaDemina();
-            studentsCollection[12] = new AleksandrBaranov();
-
-            studentsCollection[13] = new TetianaTrukhachova();
+            studentsCollection[4] = new AntonNaprasnic();
+            studentsCollection[8] = new SergeiRopin();
+            studentsCollection[2] = new JuliaNeznaeva();
+            studentsCollection[3] = new OksanaZinchenko();
+            studentsCollection[7] = new DionisiiGrinko();
+            studentsCollection[13] = new DmytriyKashkarov();
+            studentsCollection[12] = new AleksandrKhomenko();
+            studentsCollection[14] = new YuraShariy();
+            studentsCollection[9] = new IrinaDemina();
+            studentsCollection[10] = new AleksandrBaranov();
+            studentsCollection[11] = new TetianaTrukhachova();
+            studentsCollection[5] = new KryvenokMihail();
 
             // TODO: 3. print marks of all students
-
-
-
-
+            int i = 0;
             foreach (IStudent stud in studentsCollection)
             {
                 if (stud != null)
                 {
-                    Console.WriteLine(stud.ToMarkString( fakeStudManager.GetMark(stud)));
+                    i++;
+                    Console.WriteLine(i.ToString() + ": " + stud.ToMarkString(fakeStudManager.GetMark(stud)));
                 }
             }
-
             Console.ReadLine();
-
         }
     }
 }
