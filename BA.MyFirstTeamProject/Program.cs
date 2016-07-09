@@ -39,12 +39,13 @@ namespace BA.MyFirstTeamProject
 
 
 
-
+            int i = 0;
             foreach (IStudent stud in studentsCollection)
             {
                 if (stud != null)
                 {
-                    Console.WriteLine(stud.ToMarkString( fakeStudManager.GetMark(stud)));
+                    i++;
+                    Console.WriteLine(i.ToString()+": "+ stud.ToMarkString( fakeStudManager.GetMark(stud)));
                 }
             }
 
