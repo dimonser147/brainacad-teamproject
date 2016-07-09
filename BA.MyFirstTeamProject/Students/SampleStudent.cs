@@ -8,6 +8,7 @@ namespace BA.MyFirstTeamProject.Students
 {
     class SampleStudent : IStudent
     {
+        int i;
         public string Email
         {
             get
