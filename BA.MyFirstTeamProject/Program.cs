@@ -37,7 +37,7 @@ namespace BA.MyFirstTeamProject
 
             studentsCollection[11] = new TetianaTrukhachova();
 
-            studentsCollection[15] = new KryvenokMihail();
+            studentsCollection[5] = new KryvenokMihail();
 
             // TODO: 3. print marks of all students
 
