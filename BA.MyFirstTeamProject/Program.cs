@@ -10,8 +10,7 @@ namespace BA.MyFirstTeamProject
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
             // TODO: 1. create students manager h
 
 
@@ -49,7 +48,7 @@ namespace BA.MyFirstTeamProject
                 if (stud != null)
                 {
                     i++;
-                    Console.WriteLine(i.ToString()+": "+ stud.ToMarkString( fakeStudManager.GetMark(stud)));
+                    Console.WriteLine(i.ToString() + ": " + stud.ToMarkString(fakeStudManager.GetMark(stud)));
                 }
             }
 
