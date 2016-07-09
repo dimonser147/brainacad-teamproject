@@ -51,8 +51,10 @@
     <Compile Include="Students\AntonNaprasnic.cs" />
     <Compile Include="Students\AntonBabich.cs" />
     <Compile Include="Students\DmytriyKashkarov.cs" />
+    <Compile Include="Students\AleksandrKhomenko.cs" />
     <Compile Include="Students\DionisiiGrinko.cs" />
     <Compile Include="Students\DmytroObolonyk.cs" />
+    <Compile Include="Students\IrinaDemina.cs" />
     <Compile Include="Students\IStudent.cs" />
     <Compile Include="Students\JuliaNeznaeva.cs" />
     <Compile Include="Students\OksanaZinchenko.cs" />
