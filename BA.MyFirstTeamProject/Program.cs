@@ -10,11 +10,10 @@ namespace BA.MyFirstTeamProject
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
             // TODO: 1. create students manager h
             FakeStudentsManager fakeStudManager = new FakeStudentsManager();
-            
+
             // TODO: 2. create appropriate students collection and fill it by other students
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
@@ -30,7 +29,8 @@ namespace BA.MyFirstTeamProject
             studentsCollection[9] = new IrinaDemina();
             studentsCollection[10] = new AleksandrBaranov();
             studentsCollection[11] = new TetianaTrukhachova();
-            studentsCollection[15] = new KryvenokMihail();
+
+            studentsCollection[5] = new KryvenokMihail();
 
             // TODO: 3. print marks of all students
             int i = 0;
@@ -39,7 +39,7 @@ namespace BA.MyFirstTeamProject
                 if (stud != null)
                 {
                     i++;
-                    Console.WriteLine(i.ToString()+": "+ stud.ToMarkString( fakeStudManager.GetMark(stud)));
+                    Console.WriteLine(i.ToString() + ": " + stud.ToMarkString(fakeStudManager.GetMark(stud)));
                 }
             }
 
