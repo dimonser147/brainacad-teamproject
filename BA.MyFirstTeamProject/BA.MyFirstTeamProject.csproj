@@ -62,6 +62,7 @@
     <Compile Include="Students\SergeiRopin.cs" />
     <Compile Include="Students\SelivanovskyIvan.cs" />
     <Compile Include="Students\TetianaTrukhachova.cs" />
+    <Compile Include="Students\YuraShariy.cs" />
     <Compile Include="Utilities\StudentHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
