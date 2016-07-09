@@ -37,8 +37,6 @@ namespace BA.MyFirstTeamProject
 
             // TODO: 3. print marks of all students
 
-
-
             int i = 0;
             foreach (IStudent stud in studentsCollection)
             {
