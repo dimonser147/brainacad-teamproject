@@ -21,8 +21,8 @@ namespace BA.MyFirstTeamProject
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
-            studentsCollection[2] = new JuliaNeznaeva(); 
-
+            studentsCollection[2] = new JuliaNeznaeva();
+            studentsCollection[3] = new OksanaZinchenko();
 
 
 
