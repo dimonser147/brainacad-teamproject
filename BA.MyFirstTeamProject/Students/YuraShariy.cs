@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace BA.MyFirstTeamProject.Students
 {
-    class IrinaDemina:IStudent
+    class YuraShariy : IStudent
     {
+
+
         public string Email
         {
             get
             {
-                return "iriinademina@gmail.com";
+                return "yurashariy@gmail.com";
             }
         }
 
@@ -20,7 +22,7 @@ namespace BA.MyFirstTeamProject.Students
         {
             get
             {
-                return "Irina";
+                return "Yurij ";
             }
         }
 
@@ -28,8 +30,9 @@ namespace BA.MyFirstTeamProject.Students
         {
             get
             {
-                return "Demina";
+                return "Shariy";
             }
         }
     }
+
 }

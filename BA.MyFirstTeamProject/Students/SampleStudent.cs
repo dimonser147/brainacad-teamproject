@@ -12,7 +12,7 @@ namespace BA.MyFirstTeamProject.Students
         {
             get
             {
-                return "dimonser147@gmail.com";
+                return "aleksaleksand1@gmail.com";
             }
         }
 
@@ -20,7 +20,7 @@ namespace BA.MyFirstTeamProject.Students
         {
             get
             {
-                return "Dmytro";
+                return "Aleksandr";
             }
         }
 
@@ -28,7 +28,7 @@ namespace BA.MyFirstTeamProject.Students
         {
             get
             {
-                return "Obolonyk";
+                return "Baranov";
             }
         }
     }

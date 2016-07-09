@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Students\AleksandrBaranov.cs" />
     <Compile Include="IStudentsManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Students\SergeiRopin.cs" />
     <Compile Include="Students\SelivanovskyIvan.cs" />
     <Compile Include="Students\TetianaTrukhachova.cs" />
+    <Compile Include="Students\YuraShariy.cs" />
     <Compile Include="Utilities\StudentHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
