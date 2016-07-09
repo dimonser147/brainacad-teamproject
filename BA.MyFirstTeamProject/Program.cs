@@ -18,18 +18,18 @@ namespace BA.MyFirstTeamProject
             IStudent[] studentsCollection = new IStudent[15];
             studentsCollection[0] = new AntonBabich();
             studentsCollection[1] = new SelivanovskyIvan();
-            studentsCollection[4] = new AntonNaprasnic();
-            studentsCollection[8] = new SergeiRopin();
-            studentsCollection[2] = new JuliaNeznaeva();
-            studentsCollection[3] = new OksanaZinchenko();
-            studentsCollection[7] = new DionisiiGrinko();
-            studentsCollection[13] = new DmytriyKashkarov();
-            studentsCollection[12] = new AleksandrKhomenko();
-            studentsCollection[14] = new YuraShariy();
-            studentsCollection[9] = new IrinaDemina();
-            studentsCollection[10] = new AleksandrBaranov();
-            studentsCollection[11] = new TetianaTrukhachova();
-            studentsCollection[5] = new KryvenokMihail();
+            studentsCollection[2] = new AntonNaprasnic();
+            studentsCollection[3] = new SergeiRopin();
+            studentsCollection[4] = new JuliaNeznaeva();
+            studentsCollection[5] = new OksanaZinchenko();
+            studentsCollection[6] = new DionisiiGrinko();
+            studentsCollection[7] = new DmytriyKashkarov();
+            studentsCollection[8] = new AleksandrKhomenko();
+            studentsCollection[9] = new YuraShariy();
+            studentsCollection[10] = new IrinaDemina();
+            studentsCollection[11] = new AleksandrBaranov();
+            studentsCollection[12] = new TetianaTrukhachova();
+            studentsCollection[13] = new KryvenokMihail();
 
             // TODO: 3. print marks of all students
             int i = 0;
