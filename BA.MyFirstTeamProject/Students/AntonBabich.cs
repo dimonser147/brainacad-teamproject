@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace BA.MyFirstTeamProject.Students
 {
-    class SergeiRopin
+    class AntonBabich : IStudent
     {
         public string Email
         {
             get
             {
-                return "ropin.sergei@gmail.com";
+                return "anton.babich@gmail.com";
             }
         }
-         
+
         public string Firstname
         {
             get
             {
-                return "Sergei ";
+                return "Anton";
             }
         }
 
@@ -28,7 +28,7 @@ namespace BA.MyFirstTeamProject.Students
         {
             get
             {
-                return "Ropin";
+                return "Babich";
             }
         }
     }
